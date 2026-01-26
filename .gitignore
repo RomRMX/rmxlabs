@@ -1,0 +1,12 @@
+# Environment and Secrets
+.env
+credentials.json
+token.json
+
+# Temporary Files
+.tmp/
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
