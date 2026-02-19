@@ -54,7 +54,7 @@ const ProjectList = () => {
                         target={project.localRoute ? "_self" : "_blank"}
                         rel="noopener noreferrer"
                         onClick={(e) => handleProjectClick(e, project)}
-                        className="group border border-white/20 p-6 hover:bg-white/10 transition-all duration-300 cursor-pointer backdrop-blur-md bg-black/20 block relative overflow-hidden"
+                        className="group border border-white/20 p-6 hover:bg-white/10 transition-all duration-300 cursor-pointer backdrop-blur-md bg-black/20 block relative overflow-hidden hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:border-white/40"
                     >
                         <div className="flex justify-between items-start mb-2">
                             <h3 className="text-lg font-[700] text-white group-hover:text-blue-300 transition-colors uppercase" style={{ fontFamily: 'Tomorrow, sans-serif' }}>
