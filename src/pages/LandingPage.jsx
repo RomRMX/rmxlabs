@@ -39,7 +39,7 @@ const LandingPage = () => {
             </div>
 
             {/* Title Section */}
-            <div className="relative z-10 pt-32 pb-4 px-8 flex-shrink-0">
+            <div className="relative z-10 pt-[400px] pb-4 px-8 flex-shrink-0">
                 <h1 className="text-[12vw] md:text-[8vw] font-[700] text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/10 tracking-[-0.05em] select-none mix-blend-difference text-center leading-none" style={{ fontFamily: 'Tomorrow, sans-serif' }}>
                     RMXLABS
                 </h1>
