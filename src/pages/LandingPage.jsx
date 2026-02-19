@@ -19,9 +19,9 @@ const LandingPage = () => {
     }, []);
 
     return (
-        <div className="bg-black h-screen w-full text-white font-sans selection:bg-purple-500 selection:text-white overflow-hidden relative flex flex-col">
+        <div className="bg-black min-h-screen w-full text-white font-sans selection:bg-purple-500 selection:text-white overflow-x-hidden relative flex flex-col">
             {/* Background Animation */}
-            <div className="absolute inset-0 z-0">
+            <div className="fixed inset-0 z-0">
                 <Galaxy
                     mouseRepulsion={false}
                     mouseInteraction
@@ -39,14 +39,14 @@ const LandingPage = () => {
             </div>
 
             {/* Title Section */}
-            <div className="relative z-10 pt-[400px] pb-4 px-8 flex-shrink-0">
+            <div className="relative z-10 pt-32 md:pt-[400px] pb-4 px-8 flex-shrink-0">
                 <h1 className="text-[12vw] md:text-[8vw] font-[700] text-transparent bg-clip-text bg-[linear-gradient(to_bottom,#ffffff_0%,#ffffff_50%,rgba(255,255,255,0.5)_80%,transparent_100%)] tracking-[-0.05em] select-none mix-blend-difference text-center leading-none" style={{ fontFamily: 'Tomorrow, sans-serif' }}>
                     RMXLABS
                 </h1>
             </div>
 
             {/* Projects Section */}
-            <div className="relative z-10 flex-1 flex items-center justify-center px-8 pb-12 overflow-hidden">
+            <div className="relative z-10 flex-1 flex items-center justify-center px-8 pb-12">
                 <div className="w-full max-w-7xl">
                     <ProjectList />
                 </div>
